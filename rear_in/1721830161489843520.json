@@ -1,0 +1,2781 @@
+{
+  "PmpParameters": "default",
+  "CommonParameters": "default",
+  "Frames": {
+    "0": {
+      "PlanningRequest": {
+        "m_startDirection": "common::EnmStartDirection::startAutoDefineDirection",
+        "m_startPosture": {
+          "m_pose": [
+            -0.595001220703125,
+            0.36699962615966797,
+            2.63073992729187
+          ],
+          "m_curvature": 0.0
+        },
+        "m_targetArea": {
+          "m_targetPosture": {
+            "m_pose": [
+              0.272369384765625,
+              -6.511725425720215,
+              1.30224609375
+            ],
+            "m_curvature": 0.0
+          },
+          "m_lateralTolerance": 0.05,
+          "m_longitudinalTolerance": 0.05,
+          "m_orientationTolerance": 0.01,
+          "m_targetDirection": "common::EnmStartDirection::startAutoDefineDirection"
+        }
+      },
+      "m_parkingScenario": "EParkingScenario::PARKING_CPSC_BI",
+      "NfmAggregatedPolygonObjects": [
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.496998474121092,
+              "m_y": -3.9230000686645496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.8989984741210932,
+              "m_y": -3.7660000686645496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.8989984741210932,
+              "m_y": -3.7660000686645496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.301998474121092,
+              "m_y": -3.6090000686645496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.301998474121092,
+              "m_y": -3.6090000686645496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.8469984741210936,
+              "m_y": -3.672000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.8469984741210936,
+              "m_y": -3.672000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.568998474121095,
+              "m_y": -4.03700006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.568998474121095,
+              "m_y": -4.03700006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.3399984741210957,
+              "m_y": -4.90900006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.3399984741210957,
+              "m_y": -4.90900006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.1109984741210965,
+              "m_y": -5.7800000686645525,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.1109984741210965,
+              "m_y": -5.7800000686645525,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 1.8819984741210973,
+              "m_y": -6.652000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 1.8819984741210973,
+              "m_y": -6.652000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 1.652998474121091,
+              "m_y": -7.524000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 16.159998474121096,
+              "m_y": 5.171999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.659998474121096,
+              "m_y": 5.331999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.659998474121096,
+              "m_y": 5.331999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.159998474121096,
+              "m_y": 5.4919999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.159998474121096,
+              "m_y": 5.4919999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 14.739998474121094,
+              "m_y": 5.511999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 14.739998474121094,
+              "m_y": 5.511999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 14.659998474121096,
+              "m_y": 5.631999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 14.659998474121096,
+              "m_y": 5.631999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 14.379998474121095,
+              "m_y": 5.4519999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 14.379998474121095,
+              "m_y": 5.4519999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 14.059998474121095,
+              "m_y": 4.771999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 14.059998474121095,
+              "m_y": 4.771999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.909998474121096,
+              "m_y": 4.131999931335448,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.909998474121096,
+              "m_y": 4.131999931335448,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.759998474121097,
+              "m_y": 3.4919999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.759998474121097,
+              "m_y": 3.4919999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.579998474121098,
+              "m_y": 2.9619999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.579998474121098,
+              "m_y": 2.9619999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.399998474121098,
+              "m_y": 2.431999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.399998474121098,
+              "m_y": 2.431999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.479998474121096,
+              "m_y": 2.1519999313354496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.039998474121091,
+              "m_y": 4.011999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.659998474121096,
+              "m_y": 3.691999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.759998474121097,
+              "m_y": -11.36800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.619998474121097,
+              "m_y": -11.288000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.559998474121095,
+              "m_y": -11.128000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.459998474121093,
+              "m_y": -11.268000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.459998474121093,
+              "m_y": -11.268000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.959998474121093,
+              "m_y": -10.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.699998474121095,
+              "m_y": -11.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.759998474121097,
+              "m_y": -11.20800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.759998474121097,
+              "m_y": -11.20800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.879998474121095,
+              "m_y": -11.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.759998474121097,
+              "m_y": -10.82800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.019998474121095,
+              "m_y": -10.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.019998474121095,
+              "m_y": -10.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.859998474121092,
+              "m_y": -10.568000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.559998474121095,
+              "m_y": -11.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.419998474121094,
+              "m_y": -10.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.659998474121096,
+              "m_y": -10.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.639998474121093,
+              "m_y": -10.888000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.639998474121093,
+              "m_y": -10.888000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.639998474121093,
+              "m_y": -10.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.659998474121096,
+              "m_y": -10.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.399998474121098,
+              "m_y": -10.68800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.399998474121098,
+              "m_y": -10.68800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.419998474121094,
+              "m_y": -10.588000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.959998474121093,
+              "m_y": -10.50800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.799998474121097,
+              "m_y": -10.588000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.799998474121097,
+              "m_y": -10.588000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.979998474121096,
+              "m_y": -10.68800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.979998474121096,
+              "m_y": -10.68800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.059998474121095,
+              "m_y": -10.968000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.059998474121095,
+              "m_y": -10.968000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.259998474121097,
+              "m_y": -10.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.259998474121097,
+              "m_y": -10.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.359998474121092,
+              "m_y": -10.82800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.659998474121096,
+              "m_y": -10.648000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.459998474121093,
+              "m_y": -10.408000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.859998474121092,
+              "m_y": -10.948000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.659998474121096,
+              "m_y": -10.86800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.659998474121096,
+              "m_y": -10.86800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.719998474121091,
+              "m_y": -10.68800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.719998474121091,
+              "m_y": -10.68800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.559998474121095,
+              "m_y": -10.448000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.559998474121095,
+              "m_y": -10.448000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 6.859998474121092,
+              "m_y": -10.16800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 6.859998474121092,
+              "m_y": -10.16800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 6.7599984741210974,
+              "m_y": -10.34800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 6.2599984741210974,
+              "m_y": -10.068000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.959998474121093,
+              "m_y": -10.148000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.959998474121093,
+              "m_y": -10.148000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.859998474121092,
+              "m_y": -10.408000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.859998474121092,
+              "m_y": -10.408000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.7599984741210974,
+              "m_y": -10.20800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.7599984741210974,
+              "m_y": -10.20800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.559998474121095,
+              "m_y": -10.228000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.559998474121095,
+              "m_y": -10.228000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.499998474121092,
+              "m_y": -10.38800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.499998474121092,
+              "m_y": -10.38800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.359998474121092,
+              "m_y": -10.268000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.2599984741210974,
+              "m_y": -10.34800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.159998474121096,
+              "m_y": -10.20800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.159998474121096,
+              "m_y": -10.20800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 4.839998474121096,
+              "m_y": -10.268000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.839998474121096,
+              "m_y": -10.268000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 4.459998474121093,
+              "m_y": -10.108000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 5.339998474121096,
+              "m_y": -10.18800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.359998474121092,
+              "m_y": -10.16800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.359998474121092,
+              "m_y": -10.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 4.339998474121096,
+              "m_y": -10.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.359998474121092,
+              "m_y": -10.00800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 4.339998474121096,
+              "m_y": -10.00800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.179998474121092,
+              "m_y": -9.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 4.159998474121096,
+              "m_y": -10.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.159998474121096,
+              "m_y": -10.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.939998474121097,
+              "m_y": -9.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.299998474121097,
+              "m_y": -9.88800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 4.219998474121091,
+              "m_y": -9.88800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.659998474121096,
+              "m_y": -10.068000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.899998474121098,
+              "m_y": -9.88800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.899998474121098,
+              "m_y": -9.88800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.8599984741210918,
+              "m_y": -9.68800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 4.2599984741210974,
+              "m_y": -9.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 4.239998474121094,
+              "m_y": -9.728000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.5599984741210946,
+              "m_y": -9.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.5399984741210915,
+              "m_y": -9.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.5999984741210938,
+              "m_y": -9.88800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.5599984741210946,
+              "m_y": -9.66800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.5599984741210946,
+              "m_y": -9.66800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.3599984741210918,
+              "m_y": -9.66800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.3599984741210918,
+              "m_y": -9.66800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.3199984741210926,
+              "m_y": -9.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.2399984741210943,
+              "m_y": -9.808000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.2599984741210974,
+              "m_y": -9.808000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.0599984741210946,
+              "m_y": -9.808000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.8599984741210918,
+              "m_y": -9.648000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.8599984741210918,
+              "m_y": -9.648000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.7399984741210943,
+              "m_y": -9.808000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.7399984741210943,
+              "m_y": -9.808000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.959998474121093,
+              "m_y": -9.84800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 3.2599984741210974,
+              "m_y": -9.588000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 3.159998474121096,
+              "m_y": -9.568000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.059998474121095,
+              "m_y": 5.811999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.359998474121092,
+              "m_y": 4.9919999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.359998474121092,
+              "m_y": 4.9919999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.399998474121098,
+              "m_y": 4.57199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.459998474121093,
+              "m_y": 5.9519999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.319998474121093,
+              "m_y": 6.011999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.319998474121093,
+              "m_y": 6.011999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.219998474121091,
+              "m_y": 5.711999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.659998474121096,
+              "m_y": 5.551999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.579998474121098,
+              "m_y": 5.551999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -3.4400015258789054,
+              "m_y": 10.23199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -3.1400015258789047,
+              "m_y": 10.23199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -3.040001525878907,
+              "m_y": 10.17199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -2.1900015258789054,
+              "m_y": 9.97199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -2.1900015258789054,
+              "m_y": 9.97199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -1.340001525878904,
+              "m_y": 9.771999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -1.340001525878904,
+              "m_y": 9.771999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.49000152587890256,
+              "m_y": 9.57199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.49000152587890256,
+              "m_y": 9.57199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.35999847412109176,
+              "m_y": 9.371999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 0.35999847412109176,
+              "m_y": 9.371999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 1.2099984741210932,
+              "m_y": 9.17199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 1.2099984741210932,
+              "m_y": 9.17199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.0599984741210946,
+              "m_y": 8.97199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.0599984741210946,
+              "m_y": 8.97199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.3199984741210926,
+              "m_y": 8.59199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 2.139998474121093,
+              "m_y": 8.111999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 1.9799984741210963,
+              "m_y": 7.851999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 1.9799984741210963,
+              "m_y": 7.851999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 2.0599984741210946,
+              "m_y": 7.731999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.279998474121093,
+              "m_y": 1.5519999313354482,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 12.549998474121097,
+              "m_y": 1.7519999313354493,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 12.549998474121097,
+              "m_y": 1.7519999313354493,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 11.819998474121093,
+              "m_y": 1.9519999313354486,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 11.819998474121093,
+              "m_y": 1.9519999313354486,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 11.089998474121096,
+              "m_y": 2.1519999313354496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 11.089998474121096,
+              "m_y": 2.1519999313354496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.359998474121092,
+              "m_y": 2.351999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.359998474121092,
+              "m_y": 2.351999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.959998474121093,
+              "m_y": 2.271999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.159998474121096,
+              "m_y": 2.2119999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.119998474121097,
+              "m_y": 2.2119999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.959998474121093,
+              "m_y": 2.4119999313354494,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.659998474121096,
+              "m_y": 2.4919999313354495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.859998474121092,
+              "m_y": 2.351999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.839998474121096,
+              "m_y": 2.31199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.559998474121095,
+              "m_y": 2.431999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.559998474121095,
+              "m_y": 2.4119999313354494,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.519998474121095,
+              "m_y": 2.511999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 9.259998474121097,
+              "m_y": 2.5519999313354482,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 9.259998474121097,
+              "m_y": 2.5519999313354482,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.939998474121097,
+              "m_y": 2.931999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.939998474121097,
+              "m_y": 2.931999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.499998474121092,
+              "m_y": 3.0719999313354496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.499998474121092,
+              "m_y": 3.0719999313354496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.459998474121093,
+              "m_y": 2.7919999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.359998474121092,
+              "m_y": 2.81199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.699998474121095,
+              "m_y": 3.06199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.699998474121095,
+              "m_y": 3.06199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.0399984741210915,
+              "m_y": 3.31199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.0399984741210915,
+              "m_y": 3.31199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 6.379998474121095,
+              "m_y": 3.56199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 6.379998474121095,
+              "m_y": 3.56199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 5.719998474121091,
+              "m_y": 3.81199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 1.1199984741210969,
+              "m_y": 4.511999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.9599984741210932,
+              "m_y": 3.7119999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 0.9599984741210932,
+              "m_y": 3.7119999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.8599984741210918,
+              "m_y": 3.671999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -1.360001525878907,
+              "m_y": -5.3880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -1.340001525878904,
+              "m_y": -5.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -1.340001525878904,
+              "m_y": -5.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -1.0600015258789028,
+              "m_y": -4.488000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -1.0600015258789028,
+              "m_y": -4.488000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.9800015258789045,
+              "m_y": -3.7880000686645516,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.9800015258789045,
+              "m_y": -3.7880000686645516,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.6000015258789091,
+              "m_y": -2.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.6000015258789091,
+              "m_y": -2.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.7200015258789065,
+              "m_y": -2.688000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.820001525878908,
+              "m_y": -2.7880000686645516,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.840001525878904,
+              "m_y": -2.7480000686645507,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.32000152587890796,
+              "m_y": -2.7480000686645507,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.5400015258789068,
+              "m_y": -2.7680000686645503,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.5400015258789068,
+              "m_y": -2.7680000686645503,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.5400015258789068,
+              "m_y": -2.568000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.8600015258789071,
+              "m_y": -2.488000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.840001525878904,
+              "m_y": -2.3680000686645517,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.840001525878904,
+              "m_y": -2.3680000686645517,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.9400015258789054,
+              "m_y": -2.328000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 0.19999847412109517,
+              "m_y": 5.07199993133545,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.17299847412109415,
+              "m_y": 4.351999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 0.17299847412109415,
+              "m_y": 4.351999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.1469984741210979,
+              "m_y": 3.6319999313354483,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 0.1469984741210979,
+              "m_y": 3.6319999313354483,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.11999847412109688,
+              "m_y": 2.9119999313354494,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 1.3799984741210949,
+              "m_y": 2.1519999313354496,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.7399984741210943,
+              "m_y": 2.3819999313354483,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 0.7399984741210943,
+              "m_y": 2.3819999313354483,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.09999847412109375,
+              "m_y": 2.6119999313354487,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 0.09999847412109375,
+              "m_y": 2.6119999313354487,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.0599984741210946,
+              "m_y": 2.8319999313354494,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -9.760001525878906,
+              "m_y": 0.11199993133544872,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -9.150001525878906,
+              "m_y": -0.07800006866455078,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -9.150001525878906,
+              "m_y": -0.07800006866455078,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -8.540001525878907,
+              "m_y": -0.2680000686645503,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -8.440001525878905,
+              "m_y": -0.3280000686645508,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -7.697001525878907,
+              "m_y": -0.5550000686645511,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -7.697001525878907,
+              "m_y": -0.5550000686645511,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -6.953001525878907,
+              "m_y": -0.7810000686645502,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -6.953001525878907,
+              "m_y": -0.7810000686645502,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -6.210001525878905,
+              "m_y": -1.0080000686645505,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -6.210001525878905,
+              "m_y": -1.0080000686645505,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -5.467001525878906,
+              "m_y": -1.2350000686645508,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -5.467001525878906,
+              "m_y": -1.2350000686645508,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -4.723001525878907,
+              "m_y": -1.4610000686645517,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -4.723001525878907,
+              "m_y": -1.4610000686645517,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -3.9800015258789045,
+              "m_y": -1.6880000686645502,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -3.9800015258789045,
+              "m_y": -1.6880000686645502,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -3.6400015258789047,
+              "m_y": -1.6280000686645515,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -3.6400015258789047,
+              "m_y": -1.6280000686645515,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -3.6800015258789074,
+              "m_y": -1.3080000686645512,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -3.6800015258789074,
+              "m_y": -1.3080000686645512,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -3.500001525878904,
+              "m_y": -1.1280000686645515,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -3.500001525878904,
+              "m_y": -1.1280000686645515,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -3.240001525878906,
+              "m_y": -1.108000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -3.240001525878906,
+              "m_y": -1.108000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -2.450001525878907,
+              "m_y": -1.398000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -2.450001525878907,
+              "m_y": -1.398000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -1.6600015258789043,
+              "m_y": -1.6880000686645502,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -1.6600015258789043,
+              "m_y": -1.6880000686645502,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -1.053001525878905,
+              "m_y": -1.821000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -1.053001525878905,
+              "m_y": -1.821000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -0.4470015258789033,
+              "m_y": -1.9550000686645514,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -0.4470015258789033,
+              "m_y": -1.9550000686645514,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 0.15999847412109602,
+              "m_y": -2.0880000686645506,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 16.159998474121096,
+              "m_y": 3.2119999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.919998474121094,
+              "m_y": 2.7119999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.919998474121094,
+              "m_y": 2.7119999313354484,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.879998474121095,
+              "m_y": 2.1119999313354487,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.879998474121095,
+              "m_y": 2.1119999313354487,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.629998474121095,
+              "m_y": 1.3119999313354498,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.629998474121095,
+              "m_y": 1.3119999313354498,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.379998474121095,
+              "m_y": 0.5119999313354491,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.379998474121095,
+              "m_y": 0.5119999313354491,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.159998474121096,
+              "m_y": 0.3119999313354498,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.159998474121096,
+              "m_y": 0.3119999313354498,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 15.239998474121094,
+              "m_y": 0.11199993133544872,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 15.239998474121094,
+              "m_y": 0.11199993133544872,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 16.159998474121096,
+              "m_y": -0.16800006866455064,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 14.559998474121095,
+              "m_y": -6.2480000686645525,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.859998474121092,
+              "m_y": -6.068000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.859998474121092,
+              "m_y": -6.068000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.319998474121093,
+              "m_y": -6.18800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.319998474121093,
+              "m_y": -6.18800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.499998474121092,
+              "m_y": -6.588000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.499998474121092,
+              "m_y": -6.588000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.359998474121092,
+              "m_y": -7.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 13.359998474121092,
+              "m_y": -7.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 13.219998474121091,
+              "m_y": -7.588000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 12.419998474121094,
+              "m_y": -7.908000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 12.509998474121097,
+              "m_y": -7.398000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 12.509998474121097,
+              "m_y": -7.398000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 12.599998474121094,
+              "m_y": -6.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 12.599998474121094,
+              "m_y": -6.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 12.839998474121096,
+              "m_y": -6.3880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 12.839998474121096,
+              "m_y": -6.3880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 12.349998474121094,
+              "m_y": -6.1280000686645515,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 12.349998474121094,
+              "m_y": -6.1280000686645515,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 11.859998474121092,
+              "m_y": -5.86800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 11.859998474121092,
+              "m_y": -5.86800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 11.159998474121096,
+              "m_y": -5.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.159998474121096,
+              "m_y": -9.468000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.329998474121098,
+              "m_y": -8.728000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.329998474121098,
+              "m_y": -8.728000068664553,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.499998474121092,
+              "m_y": -7.988000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.439998474121097,
+              "m_y": -7.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.699998474121095,
+              "m_y": -7.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.699998474121095,
+              "m_y": -7.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.959998474121093,
+              "m_y": -6.288000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.359998474121092,
+              "m_y": -7.168000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.159998474121096,
+              "m_y": -6.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.159998474121096,
+              "m_y": -6.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.219998474121091,
+              "m_y": -6.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.359998474121092,
+              "m_y": -6.928000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.459998474121093,
+              "m_y": -7.02800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 10.459998474121093,
+              "m_y": -7.02800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 10.499998474121092,
+              "m_y": -6.928000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.259998474121097,
+              "m_y": -8.288000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.319998474121093,
+              "m_y": -8.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.359998474121092,
+              "m_y": -6.808000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.199998474121095,
+              "m_y": -6.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.199998474121095,
+              "m_y": -6.8880000686645495,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.259998474121097,
+              "m_y": -7.108000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 8.259998474121097,
+              "m_y": -7.108000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 8.059998474121095,
+              "m_y": -7.04800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 11.859998474121092,
+              "m_y": -6.828000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 11.959998474121093,
+              "m_y": -6.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 11.959998474121093,
+              "m_y": -6.788000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 11.799998474121097,
+              "m_y": -6.428000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 6.679998474121092,
+              "m_y": -10.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 6.659998474121096,
+              "m_y": -9.968000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 6.659998474121096,
+              "m_y": -9.968000068664551,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 6.559998474121095,
+              "m_y": -9.948000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 6.559998474121095,
+              "m_y": -9.948000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 6.459998474121093,
+              "m_y": -10.16800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 6.459998474121093,
+              "m_y": -10.16800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 6.159998474121096,
+              "m_y": -10.088000068664552,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -7.540001525878907,
+              "m_y": 6.711999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -7.440001525878905,
+              "m_y": 6.811999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -7.440001525878905,
+              "m_y": 6.811999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -7.340001525878904,
+              "m_y": 6.851999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -7.340001525878904,
+              "m_y": 6.851999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -7.260001525878906,
+              "m_y": 6.811999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -7.260001525878906,
+              "m_y": 6.811999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -7.040001525878907,
+              "m_y": 6.831999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -7.040001525878907,
+              "m_y": 6.831999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -6.940001525878905,
+              "m_y": 6.811999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -6.940001525878905,
+              "m_y": 6.811999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -6.840001525878904,
+              "m_y": 7.011999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -6.840001525878904,
+              "m_y": 7.011999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -6.740001525878906,
+              "m_y": 7.411999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -6.740001525878906,
+              "m_y": 7.411999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -6.680001525878907,
+              "m_y": 7.511999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": -6.680001525878907,
+              "m_y": 7.511999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": -6.540001525878907,
+              "m_y": 7.511999931335449,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        },
+        {
+          "nfmPolygonObjectNodes": [
+            {
+              "m_x": 7.7599984741210974,
+              "m_y": -8.00800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH",
+              "comment": "Limiting Object 2, Street Side"
+            },
+            {
+              "m_x": 7.7599984741210974,
+              "m_y": -8.00800006866455,
+              "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

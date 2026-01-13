@@ -1,0 +1,3564 @@
+{
+    "PmpParameters": "default",
+    "CommonParameters": "default",
+    "Frames": {
+        "0": {
+            "PlanningRequest": {
+                "m_startDirection": "common::EnmStartDirection::startAutoDefineDirection",
+                "m_origin": [
+                    13.403999328613281,
+                    -0.14600048959255219
+                ],
+                "m_startPosture": {
+                    "m_pose": [
+                        0.0,
+                        0.0,
+                        -0.05774099031557256
+                    ],
+                    "m_curvature": 0.0
+                },
+                "m_targetArea": {
+                    "m_targetPosture": {
+                        "m_pose": [
+                            3.1932106018066406,
+                            5.5999603271484375,
+                            -1.5989025274859827
+                        ],
+                        "m_curvature": 0.0
+                    },
+                    "m_lateralTolerance": 0.05,
+                    "m_longitudinalTolerance": 0.05,
+                    "m_orientationTolerance": 0.01,
+                    "m_targetDirection": "common::EnmStartDirection::startAutoDefineDirection"
+                },
+                "m_plannerSelectedTargetArea": {
+                    "m_idealTargetPosture": {
+                        "m_pose": [
+                            3.1932106018066406,
+                            5.5999603271484375,
+                            -1.5989025274859827
+                        ],
+                        "m_curvature": 0.0
+                    },
+                    "m_lateralTolerance": 0.05,
+                    "m_longitudinalTolerance": 0.05,
+                    "m_orientationTolerance": 0.01,
+                    "m_idealTargetDirection": "common::EnmStartDirection::startAutoDefineDirection"
+                },
+                "m_pmpParams": {
+                    "m_safetyDistances": {
+                        "m_front": 0.20000000298023224,
+                        "m_left": 0.20000000298023224,
+                        "m_rear": 0.20000000298023224,
+                        "m_right": 0.20000000298023224
+                    },
+                    "m_vehicleContour": {
+                        "m_numberContourPntsFront": 1,
+                        "m_numberContourPntsRear": 1,
+                        "m_numberContourPntsSide": 5,
+                        "m_vehContourFrontX": [
+                            3.924999952316284,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "m_vehContourFrontY": [
+                            0.6679999828338623,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "m_vehContourRearX": [
+                            -1.0240000486373901,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "m_vehContourRearY": [
+                            0.6679999828338623,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "m_vehContourSideX": [
+                            3.6050000190734863,
+                            2.1530001163482666,
+                            2.065000057220459,
+                            2.0269999504089355,
+                            -0.7049999833106995,
+                            0.0
+                        ],
+                        "m_vehContourSideY": [
+                            0.9879999756813049,
+                            0.9879999756813049,
+                            1.0180000066757202,
+                            0.9879999756813049,
+                            0.9879999756813049,
+                            0.0
+                        ],
+                        "m_vehicleType": 0
+                    }
+                },
+                "m_awpPlaningRequest": false,
+                "m_realTimeReplaningRequest": false,
+                "m_parkingSpaceCoorSys": {
+                    "m_position": [
+                        1.7813140153884888,
+                        1.6380735635757446,
+                        6.25507926940918
+                    ],
+                    "m_needMirror": true
+                },
+                "m_localPathData": {
+                    "m_pathPoints": [],
+                    "m_sPositions": [],
+                    "m_velocities": [],
+                    "m_stopSPos": 0.0,
+                    "m_direction": 0,
+                    "m_pathOrigin": [
+                        0.0,
+                        0.0
+                    ],
+                    "m_moveType": 0
+                },
+                "m_vehicleData": {
+                    "m_currentVehicleSPos": 22.040000915527344,
+                    "m_vehiclePositionX": 13.403999328613281,
+                    "m_vehiclePositionY": -0.14600048959255219,
+                    "m_vehicleOrientation": -0.05774101987481117,
+                    "m_steeringAngleFront": 0.0009137912420555949,
+                    "m_vehicleCurvature": 0.0003045971679966897,
+                    "m_vehicleVelocity": 0.0,
+                    "m_vehicleAcceleration": -0.001035174005664885,
+                    "m_vehMoveDir": 0,
+                    "m_vehDriveDir": 0
+                }
+            },
+            "m_parkingScenario": "EParkingScenario::PARKING_CPSC_BI",
+            "m_slotInfo": {
+                "correctedPs": {
+                    "rbp_tag_psxpsinfo_st_ID_u8": 0,
+                    "rbp_tag_psxpsinfo_st_Length_u16": 0,
+                    "rbp_tag_psxpsinfo_st_OCPType_en": 0,
+                    "rbp_tag_psxpsinfo_st_PSCAlignment_en": 0,
+                    "rbp_tag_psxpsinfo_st_PSObj_st": {
+                        "rbp_tag_psxpsobjinfo_st_DepthRef1_st": {
+                            "rbp_tag_psxdepthref_st_DepthRefType_en": 0,
+                            "rbp_tag_psxdepthref_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            }
+                        },
+                        "rbp_tag_psxpsobjinfo_st_DepthRef2_st": {
+                            "rbp_tag_psxdepthref_st_DepthRefType_en": 0,
+                            "rbp_tag_psxdepthref_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            }
+                        },
+                        "rbp_tag_psxpsobjinfo_st_DepthRef3_st": {
+                            "rbp_tag_psxdepthref_st_DepthRefType_en": 0,
+                            "rbp_tag_psxdepthref_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            }
+                        },
+                        "rbp_tag_psxpsobjinfo_st_Obj1_st": {
+                            "rbp_tag_psxobj_st_ObjCorner_st": {
+                                "rbp_tag_pointfl_st_X_f32": 0.0,
+                                "rbp_tag_pointfl_st_Y_f32": 0.0
+                            },
+                            "rbp_tag_psxobj_st_ObjLength": 0.0,
+                            "rbp_tag_psxobj_st_ObjType_en": 0,
+                            "rbp_tag_psxobj_st_Orientation_s16": 0
+                        },
+                        "rbp_tag_psxpsobjinfo_st_Obj2_st": {
+                            "rbp_tag_psxobj_st_ObjCorner_st": {
+                                "rbp_tag_pointfl_st_X_f32": 0.0,
+                                "rbp_tag_pointfl_st_Y_f32": 0.0
+                            },
+                            "rbp_tag_psxobj_st_ObjLength": 0.0,
+                            "rbp_tag_psxobj_st_ObjType_en": 0,
+                            "rbp_tag_psxobj_st_Orientation_s16": 0
+                        },
+                        "rbp_tag_psxpsobjinfo_st_ParallelLongRef1_st": {
+                            "rbp_tag_psxdepthref_st_DepthRefType_en": 0,
+                            "rbp_tag_psxdepthref_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            }
+                        },
+                        "rbp_tag_psxpsobjinfo_st_ParallelLongRef2_st": {
+                            "rbp_tag_psxdepthref_st_DepthRefType_en": 0,
+                            "rbp_tag_psxdepthref_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            }
+                        },
+                        "rbp_tag_psxpsobjinfo_st_ParallelLongRef3_st": {
+                            "rbp_tag_psxdepthref_st_DepthRefType_en": 0,
+                            "rbp_tag_psxdepthref_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            }
+                        },
+                        "rbp_tag_psxpsobjinfo_st_RefCircle_st": {
+                            "rbp_tag_circlefl_st_P_st": {
+                                "rbp_tag_pointfl_st_X_f32": 0.0,
+                                "rbp_tag_pointfl_st_Y_f32": 0.0
+                            },
+                            "rbp_tag_circlefl_st_R_f32": 0.0
+                        },
+                        "rbp_tag_psxpsobjinfo_st_VideoLine1_st": {
+                            "rbp_tag_psxvideoline_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            },
+                            "rbp_tag_psxvideoline_st_LineType_en": 0
+                        },
+                        "rbp_tag_psxpsobjinfo_st_VideoLine2_st": {
+                            "rbp_tag_psxvideoline_st_LineSegment_st": {
+                                "rbp_tag_linesegmentfl_st_P1_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                },
+                                "rbp_tag_linesegmentfl_st_P2_st": {
+                                    "rbp_tag_pointfl_st_X_f32": 0.0,
+                                    "rbp_tag_pointfl_st_Y_f32": 0.0
+                                }
+                            },
+                            "rbp_tag_psxvideoline_st_LineType_en": 0
+                        }
+                    },
+                    "rbp_tag_psxpsinfo_st_PreviousParkIn_en": 0,
+                    "rbp_tag_psxpsinfo_st_Side_en": 0,
+                    "rbp_tag_psxpsinfo_st_StreetOrient_s16": 0,
+                    "rbp_tag_psxpsinfo_st_Type_en": 0
+                },
+                "PSPose32": {
+                    "rbp_tag_linesincos32_st_P_st": {
+                        "rbp_tag_point32_st_X_s32": 0,
+                        "rbp_tag_point32_st_Y_s32": 0
+                    },
+                    "rbp_tag_linesincos32_st_Phi_st": {
+                        "rbp_tag_angle_st_Angle_s16": 0,
+                        "rbp_tag_angle_st_Cos_s16": 0,
+                        "rbp_tag_angle_st_Sin_s16": 0
+                    }
+                }
+            },
+            "m_nfmOrigin": [
+                13.200000196695328,
+                0.0
+            ],
+            "NfmAggregatedPolygonObjects": [
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 9.758926391601562,
+                            "m_y": -3.430842638015747,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 10.080945014953613,
+                            "m_y": -3.4980180263519287,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.733260154724121,
+                            "m_y": 7.103769302368164,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.748971939086914,
+                            "m_y": 7.004035472869873,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.3297926187515259,
+                            "m_y": 7.934350490570068,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.11214900016784668,
+                            "m_y": 8.143173217773438,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.6758536100387573,
+                            "m_y": 8.139701843261719,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.9827306270599365,
+                            "m_y": 7.758707046508789,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.2784343957901001,
+                            "m_y": 5.665497303009033,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.2983309030532837,
+                            "m_y": 6.240444183349609,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.4828780889511108,
+                            "m_y": 8.093222618103027,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.5857442617416382,
+                            "m_y": 8.242624282836914,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.1518499851226807,
+                            "m_y": 5.140285491943359,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.111933469772339,
+                            "m_y": 5.137704849243164,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.7539145946502686,
+                            "m_y": -4.038620948791504,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.872654676437378,
+                            "m_y": -4.049151420593262,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.162628650665283,
+                            "m_y": -4.061501979827881,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.189471483230591,
+                            "m_y": -4.050018310546875,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.5656903982162476,
+                            "m_y": 2.193045139312744,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.4832627773284912,
+                            "m_y": 2.2280755043029785,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.27658653259277344,
+                            "m_y": 2.3730885982513428,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.14650094509124756,
+                            "m_y": 2.5994861125946045,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -5.966561794281006,
+                            "m_y": 8.068207740783691,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -6.240398406982422,
+                            "m_y": 8.178783416748047,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -6.81959867477417,
+                            "m_y": 7.921157360076904,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -5.739091873168945,
+                            "m_y": -3.675144672393799,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.640662670135498,
+                            "m_y": -3.678253650665283,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.537628650665283,
+                            "m_y": -3.685520887374878,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.345990180969238,
+                            "m_y": -3.685476303100586,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.964931011199951,
+                            "m_y": 2.888383388519287,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.968382835388184,
+                            "m_y": 2.988410472869873,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.00185489654541,
+                            "m_y": 3.285400390625,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.016109943389893,
+                            "m_y": 3.3812644481658936,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.04820537567138672,
+                            "m_y": 8.393470764160156,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.14684557914733887,
+                            "m_y": 8.512913703918457,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.2720808982849121,
+                            "m_y": 8.351567268371582,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.779135704040527,
+                            "m_y": 6.219639301300049,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.770845413208008,
+                            "m_y": 5.666048526763916,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.77038860321045,
+                            "m_y": 5.462902545928955,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.770130157470703,
+                            "m_y": 5.373591899871826,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.336684226989746,
+                            "m_y": -0.4277104139328003,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.076262950897217,
+                            "m_y": -0.38996195793151855,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.893581867218018,
+                            "m_y": -0.28543344140052795,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.863335609436035,
+                            "m_y": -0.11837133020162582,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.928013801574707,
+                            "m_y": 7.671533107757568,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.7852253913879395,
+                            "m_y": 7.765700340270996,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.203787326812744,
+                            "m_y": 7.63891077041626,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.455389022827148,
+                            "m_y": 6.251501083374023,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        },
+                        {
+                            "m_x": -6.422878265380859,
+                            "m_y": 6.075870990753174,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -9.880562782287598,
+                            "m_y": -3.4257121086120605,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -10.024965286254883,
+                            "m_y": -3.5306339263916016,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -3.024333953857422,
+                            "m_y": 8.006454467773438,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.635740280151367,
+                            "m_y": 8.265199661254883,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.863335609436035,
+                            "m_y": -0.11837133020162582,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.859910488128662,
+                            "m_y": 0.06375731527805328,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.868954658508301,
+                            "m_y": 0.2504606544971466,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.861250877380371,
+                            "m_y": 0.2940223515033722,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -4.607305526733398,
+                            "m_y": 8.356754302978516,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.356884956359863,
+                            "m_y": 8.305208206176758,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.966561794281006,
+                            "m_y": 8.068207740783691,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.770845413208008,
+                            "m_y": 5.666048526763916,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.77038860321045,
+                            "m_y": 5.462902545928955,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.5424762964248657,
+                            "m_y": 2.128791570663452,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.4637645483016968,
+                            "m_y": 2.116680145263672,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 3.0999062061309814,
+                            "m_y": 8.376105308532715,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.9301860332489014,
+                            "m_y": 8.196832656860352,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.3361712694168091,
+                            "m_y": 6.328602313995361,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.3734837770462036,
+                            "m_y": 6.461545467376709,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -6.81959867477417,
+                            "m_y": 7.921157360076904,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -7.8457794189453125,
+                            "m_y": 7.830015182495117,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.899689197540283,
+                            "m_y": 8.126646041870117,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.4028918743133545,
+                            "m_y": 8.175829887390137,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.5413419008255005,
+                            "m_y": -3.889125108718872,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.2779838442802429,
+                            "m_y": -3.9100120067596436,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.8554481267929077,
+                            "m_y": 8.844298362731934,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.9005730152130127,
+                            "m_y": 8.60438346862793,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -4.162998676300049,
+                            "m_y": 8.87251091003418,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -4.4176177978515625,
+                            "m_y": 8.893755912780762,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -4.471683979034424,
+                            "m_y": 8.716301918029785,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.9514739513397217,
+                            "m_y": -3.869751453399658,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.8459839820861816,
+                            "m_y": -3.870375394821167,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.3177490234375,
+                            "m_y": 5.5820231437683105,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.520920753479004,
+                            "m_y": 6.683034420013428,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 7.323594093322754,
+                            "m_y": -4.2475104331970215,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 7.46670389175415,
+                            "m_y": -4.279694080352783,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -4.852762222290039,
+                            "m_y": -3.726020336151123,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -4.15516996383667,
+                            "m_y": -3.7664833068847656,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.189471483230591,
+                            "m_y": -4.050018310546875,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.3846144676208496,
+                            "m_y": -4.071706771850586,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.4788668155670166,
+                            "m_y": -4.076434135437012,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.759406328201294,
+                            "m_y": -4.084192276000977,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.060210704803467,
+                            "m_y": -4.184459209442139,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.170860767364502,
+                            "m_y": -4.192632675170898,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.464135646820068,
+                            "m_y": -4.2009968757629395,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.568310737609863,
+                            "m_y": -4.20233678817749,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.31371796131134033,
+                            "m_y": 8.790051460266113,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.13213276863098145,
+                            "m_y": 8.68613338470459,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.6820533275604248,
+                            "m_y": 5.288609027862549,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.9578696489334106,
+                            "m_y": 5.124886512756348,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.236311912536621,
+                            "m_y": 5.292117118835449,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -2.149547815322876,
+                            "m_y": -3.848360300064087,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.9657739400863647,
+                            "m_y": -3.8571677207946777,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.7175958156585693,
+                            "m_y": -3.864253282546997,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.6602487564086914,
+                            "m_y": -3.8638856410980225,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.349548876285553,
+                            "m_y": -2.5358498096466064,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.25141972303390503,
+                            "m_y": -2.5583932399749756,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.1471351385116577,
+                            "m_y": 2.081923484802246,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.9477242231369019,
+                            "m_y": 2.086425304412842,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.917886734008789,
+                            "m_y": 1.8745330572128296,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.912808418273926,
+                            "m_y": 1.9763778448104858,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.9192657470703125,
+                            "m_y": 2.1811177730560303,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.9436187744140625,
+                            "m_y": 2.383683204650879,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.8601800203323364,
+                            "m_y": 8.154752731323242,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.2112374305725098,
+                            "m_y": 8.101144790649414,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.3806824684143066,
+                            "m_y": 8.267508506774902,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.024333953857422,
+                            "m_y": 8.006454467773438,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.5553059577941895,
+                            "m_y": -2.4293384552001953,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.578647613525391,
+                            "m_y": -2.2520995140075684,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.608462810516357,
+                            "m_y": -2.1221489906311035,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.8545379638671875,
+                            "m_y": -2.057318925857544,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -10.244389533996582,
+                            "m_y": -3.5218536853790283,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -10.367634773254395,
+                            "m_y": -3.6666531562805176,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.2510476112365723,
+                            "m_y": 8.665594100952148,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.3113045692443848,
+                            "m_y": 8.880781173706055,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -2.949770450592041,
+                            "m_y": -3.823603391647339,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.7506542205810547,
+                            "m_y": -3.8160128593444824,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.234619617462158,
+                            "m_y": 4.877270698547363,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.2203874588012695,
+                            "m_y": 4.972062110900879,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.246856689453125,
+                            "m_y": 5.070399761199951,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.2581562995910645,
+                            "m_y": 5.170206069946289,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.057989120483398,
+                            "m_y": -2.038599729537964,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.24370002746582,
+                            "m_y": -2.042504072189331,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.433257579803467,
+                            "m_y": -2.0400302410125732,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.261778354644775,
+                            "m_y": 7.725450038909912,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.267767429351807,
+                            "m_y": 7.8767571449279785,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.789987325668335,
+                            "m_y": 8.27306079864502,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.0999062061309814,
+                            "m_y": 8.376105308532715,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.13916921615600586,
+                            "m_y": 2.9568068981170654,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.12724685668945312,
+                            "m_y": 2.9701342582702637,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.1325969696044922,
+                            "m_y": 3.159130811691284,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.1401968002319336,
+                            "m_y": 3.3656458854675293,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -2.7506542205810547,
+                            "m_y": -3.8160128593444824,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.545414686203003,
+                            "m_y": -3.8367021083831787,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.2952425479888916,
+                            "m_y": -3.8473029136657715,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.149547815322876,
+                            "m_y": -3.848360300064087,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.3182096481323242,
+                            "m_y": -2.3449959754943848,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.30756208300590515,
+                            "m_y": -2.330265760421753,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.770130157470703,
+                            "m_y": 5.373591899871826,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.759573936462402,
+                            "m_y": 5.1955180168151855,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.02859878540039,
+                            "m_y": -2.8690884113311768,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -7.165926933288574,
+                            "m_y": -3.0171923637390137,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -6.968583106994629,
+                            "m_y": -3.53829026222229,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.35505735874176025,
+                            "m_y": 7.465630531311035,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.2752028703689575,
+                            "m_y": 7.580414295196533,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 10.521382331848145,
+                            "m_y": -3.6070539951324463,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 10.5620698928833,
+                            "m_y": -3.5261034965515137,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.3301572799682617,
+                            "m_y": 8.091252326965332,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.2244653701782227,
+                            "m_y": 8.126347541809082,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -2.3937788009643555,
+                            "m_y": 8.923994064331055,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.515597105026245,
+                            "m_y": 8.828622817993164,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.861250877380371,
+                            "m_y": 0.2940223515033722,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.855884552001953,
+                            "m_y": 0.31198036670684814,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.8545379638671875,
+                            "m_y": -2.057318925857544,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.938828945159912,
+                            "m_y": -2.0378401279449463,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.057989120483398,
+                            "m_y": -2.038599729537964,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -10.202088356018066,
+                            "m_y": 6.761284351348877,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        },
+                        {
+                            "m_x": -8.326762199401855,
+                            "m_y": 6.490676403045654,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.11416888236999512,
+                            "m_y": 2.8626303672790527,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.13916921615600586,
+                            "m_y": 2.9568068981170654,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.003958225250244,
+                            "m_y": 3.1458165645599365,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.002436637878418,
+                            "m_y": 2.9308536052703857,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.9800975322723389,
+                            "m_y": 2.647865056991577,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.9275544881820679,
+                            "m_y": 2.4411232471466064,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.9827306270599365,
+                            "m_y": 7.758707046508789,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.3321624994277954,
+                            "m_y": 8.021449089050293,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.35696446895599365,
+                            "m_y": 6.392221927642822,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        },
+                        {
+                            "m_x": 2.208606719970703,
+                            "m_y": 6.223461627960205,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.0403791666030884,
+                            "m_y": -3.928880214691162,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.1607688665390015,
+                            "m_y": -3.968510389328003,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.3755265474319458,
+                            "m_y": -4.003303050994873,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.6718997955322266,
+                            "m_y": -4.03810977935791,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.7629207372665405,
+                            "m_y": -3.6283981800079346,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.8652112483978271,
+                            "m_y": -3.7291383743286133,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.9517345428466797,
+                            "m_y": -3.869319438934326,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.0403791666030884,
+                            "m_y": -3.928880214691162,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -7.62851095199585,
+                            "m_y": -0.2081192582845688,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        },
+                        {
+                            "m_x": -7.828146457672119,
+                            "m_y": -2.103644609451294,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.751033782958984,
+                            "m_y": 6.862350940704346,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.779135704040527,
+                            "m_y": 6.219639301300049,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.759406328201294,
+                            "m_y": -4.084192276000977,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.9817941188812256,
+                            "m_y": -4.092803955078125,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.0549423694610596,
+                            "m_y": -4.098078727722168,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.136509656906128,
+                            "m_y": -4.108421325683594,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.39535629749298096,
+                            "m_y": 6.487074375152588,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.6532970666885376,
+                            "m_y": 6.755369186401367,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 6.439804553985596,
+                            "m_y": -4.173614025115967,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 6.580221176147461,
+                            "m_y": -4.147960186004639,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 6.699519157409668,
+                            "m_y": -4.1512556076049805,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -7.918972969055176,
+                            "m_y": 8.36494255065918,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.153480529785156,
+                            "m_y": 8.282247543334961,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.759573936462402,
+                            "m_y": 5.1955180168151855,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.752236366271973,
+                            "m_y": 4.988076686859131,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.877507209777832,
+                            "m_y": 3.917901039123535,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.958502769470215,
+                            "m_y": 3.5997731685638428,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 3.136509656906128,
+                            "m_y": -4.108421325683594,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.354536771774292,
+                            "m_y": -4.132380962371826,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.4623336791992188,
+                            "m_y": -4.139881134033203,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -7.461465835571289,
+                            "m_y": 8.079181671142578,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -7.873042106628418,
+                            "m_y": 8.13931941986084,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.579303741455078,
+                            "m_y": -4.174787998199463,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.87397575378418,
+                            "m_y": -4.178725242614746,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.973433017730713,
+                            "m_y": -4.181084632873535,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.060210704803467,
+                            "m_y": -4.184459209442139,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 3.4623336791992188,
+                            "m_y": -4.139881134033203,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.672254800796509,
+                            "m_y": -4.155119895935059,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 3.8707773685455322,
+                            "m_y": -4.157542705535889,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.082828044891357,
+                            "m_y": -4.1626458168029785,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.958502769470215,
+                            "m_y": 3.5997731685638428,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -9.009212493896484,
+                            "m_y": 3.0474164485931396,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -9.216554641723633,
+                            "m_y": 2.809464454650879,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -9.985440254211426,
+                            "m_y": 2.6510069370269775,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -3.4677462577819824,
+                            "m_y": -3.778463840484619,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.424022674560547,
+                            "m_y": -3.777404308319092,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.00719165802002,
+                            "m_y": 8.525174140930176,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.740897178649902,
+                            "m_y": 8.385367393493652,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.662848949432373,
+                            "m_y": 8.206698417663574,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.7737075090408325,
+                            "m_y": 8.476855278015137,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.8043981790542603,
+                            "m_y": 8.184653282165527,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -2.39572811126709,
+                            "m_y": -2.3927931785583496,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.314075469970703,
+                            "m_y": -2.54058837890625,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.26161301136016846,
+                            "m_y": 5.576066017150879,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.2784343957901001,
+                            "m_y": 5.665497303009033,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.1187314987182617,
+                            "m_y": 8.089978218078613,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.3993427753448486,
+                            "m_y": 7.996909141540527,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.082828044891357,
+                            "m_y": -4.1626458168029785,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.183902740478516,
+                            "m_y": -4.166538715362549,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.4542765617370605,
+                            "m_y": -4.171718597412109,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.579303741455078,
+                            "m_y": -4.174787998199463,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 7.281784534454346,
+                            "m_y": -4.260387420654297,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 7.323594093322754,
+                            "m_y": -4.2475104331970215,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.1401968002319336,
+                            "m_y": 3.3656458854675293,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.14202165603637695,
+                            "m_y": 3.463559627532959,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.14445877075195312,
+                            "m_y": 3.678701400756836,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.1532878875732422,
+                            "m_y": 3.955251932144165,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -3.424022674560547,
+                            "m_y": -3.777404308319092,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.1454098224639893,
+                            "m_y": -3.8026585578918457,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.0534095764160156,
+                            "m_y": -3.8097121715545654,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.949770450592041,
+                            "m_y": -3.823603391647339,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 10.970638275146484,
+                            "m_y": -3.6563355922698975,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 11.05052375793457,
+                            "m_y": -3.6801581382751465,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.506436824798584,
+                            "m_y": -2.9129536151885986,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.535516738891602,
+                            "m_y": -2.7186079025268555,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.547093391418457,
+                            "m_y": -2.6053431034088135,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.5553059577941895,
+                            "m_y": -2.4293384552001953,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.21416711807251,
+                            "m_y": 4.471801280975342,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.241498947143555,
+                            "m_y": 4.770509719848633,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.234619617462158,
+                            "m_y": 4.877270698547363,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.14650094509124756,
+                            "m_y": 2.5994861125946045,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.11416888236999512,
+                            "m_y": 2.8626303672790527,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.1538212299346924,
+                            "m_y": -3.8710765838623047,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.9514739513397217,
+                            "m_y": -3.869751453399658,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.4171974658966064,
+                            "m_y": 5.787125110626221,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        },
+                        {
+                            "m_x": 4.394333839416504,
+                            "m_y": 5.729452610015869,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -12.264510154724121,
+                            "m_y": -3.328728199005127,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -10.987534523010254,
+                            "m_y": -3.3056914806365967,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.106415271759033,
+                            "m_y": 7.904036045074463,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.9483866691589355,
+                            "m_y": 7.852136611938477,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.19675636291503906,
+                            "m_y": 4.380704879760742,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.21642935276031494,
+                            "m_y": 4.5591607093811035,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.23284924030303955,
+                            "m_y": 4.6839776039123535,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.25341761112213135,
+                            "m_y": 4.977689743041992,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -7.873042106628418,
+                            "m_y": 8.13931941986084,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -7.852332592010498,
+                            "m_y": 7.896392345428467,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.25025713443756104,
+                            "m_y": 5.064358711242676,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.2580763101577759,
+                            "m_y": 5.272953033447266,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.2553654909133911,
+                            "m_y": 5.3659210205078125,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.26161301136016846,
+                            "m_y": 5.576066017150879,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.3201028108596802,
+                            "m_y": 6.246252059936523,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.2906376123428345,
+                            "m_y": 6.170215129852295,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.0963516235351562,
+                            "m_y": 3.8044605255126953,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.0287892818450928,
+                            "m_y": 3.546612024307251,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.025904655456543,
+                            "m_y": 3.4833896160125732,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.748971939086914,
+                            "m_y": 7.004035472869873,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.751033782958984,
+                            "m_y": 6.862350940704346,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.6532970666885376,
+                            "m_y": 6.755369186401367,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.7838879823684692,
+                            "m_y": 7.024653434753418,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.6980544328689575,
+                            "m_y": 7.26231575012207,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.35505735874176025,
+                            "m_y": 7.465630531311035,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -4.15516996383667,
+                            "m_y": -3.7664833068847656,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -4.047982692718506,
+                            "m_y": -3.770007848739624,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.8561182022094727,
+                            "m_y": -3.7675182819366455,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.6474356651306152,
+                            "m_y": -3.7697324752807617,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -12.677485466003418,
+                            "m_y": -3.3203742504119873,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -12.458922386169434,
+                            "m_y": -3.321197271347046,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -2.2855329513549805,
+                            "m_y": 5.931316375732422,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        },
+                        {
+                            "m_x": -0.3861081004142761,
+                            "m_y": 5.778234004974365,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.7699856758117676,
+                            "m_y": -2.754443883895874,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.850552558898926,
+                            "m_y": -2.6815226078033447,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.107071399688721,
+                            "m_y": 3.8628063201904297,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.1627655029296875,
+                            "m_y": 4.077722549438477,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.201194763183594,
+                            "m_y": 4.373577117919922,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.21416711807251,
+                            "m_y": 4.471801280975342,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.35210275650024414,
+                            "m_y": -3.325015068054199,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.5382483005523682,
+                            "m_y": -3.3863344192504883,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.6653883457183838,
+                            "m_y": -3.442221164703369,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.7629207372665405,
+                            "m_y": -3.6283981800079346,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 2.100371837615967,
+                            "m_y": 4.521727561950684,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 2.060514450073242,
+                            "m_y": 4.518352508544922,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -10.049790382385254,
+                            "m_y": 2.6740965843200684,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -10.395515441894531,
+                            "m_y": 2.7463560104370117,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -10.336898803710938,
+                            "m_y": 8.402765274047852,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -10.505584716796875,
+                            "m_y": 8.425924301147461,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 6.768870830535889,
+                            "m_y": -4.173948764801025,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 6.900040149688721,
+                            "m_y": -4.20003080368042,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 7.156698703765869,
+                            "m_y": -4.228382587432861,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 7.281784534454346,
+                            "m_y": -4.260387420654297,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.2449922561645508,
+                            "m_y": 5.368956089019775,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.272052526473999,
+                            "m_y": 5.6939263343811035,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.960981845855713,
+                            "m_y": -4.22255277633667,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 6.034090995788574,
+                            "m_y": -4.221113681793213,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -9.796409606933594,
+                            "m_y": 8.338001251220703,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -10.336898803710938,
+                            "m_y": 8.402765274047852,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.1532878875732422,
+                            "m_y": 3.955251932144165,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.17955684661865234,
+                            "m_y": 4.167163848876953,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.1766352653503418,
+                            "m_y": 4.262709617614746,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.19675636291503906,
+                            "m_y": 4.380704879760742,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.4759047031402588,
+                            "m_y": -2.5304055213928223,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.6137113571166992,
+                            "m_y": -2.6002516746520996,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -10.889253616333008,
+                            "m_y": -3.2591159343719482,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -10.246158599853516,
+                            "m_y": -3.367032289505005,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -3.635740280151367,
+                            "m_y": 8.265199661254883,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -4.607305526733398,
+                            "m_y": 8.356754302978516,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -5.345990180969238,
+                            "m_y": -3.685476303100586,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.244904518127441,
+                            "m_y": -3.695218324661255,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.042304515838623,
+                            "m_y": -3.7073659896850586,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -4.852762222290039,
+                            "m_y": -3.726020336151123,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.9436187744140625,
+                            "m_y": 2.383683204650879,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.948361396789551,
+                            "m_y": 2.4843199253082275,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.956851959228516,
+                            "m_y": 2.6861088275909424,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.964931011199951,
+                            "m_y": 2.888383388519287,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -5.900566577911377,
+                            "m_y": 5.840480327606201,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        },
+                        {
+                            "m_x": -3.9714407920837402,
+                            "m_y": 5.703226089477539,
+                            "m_obstacleType": 11,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::LOW"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.568310737609863,
+                            "m_y": -4.20233678817749,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.863162994384766,
+                            "m_y": -4.2125349044799805,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.960981845855713,
+                            "m_y": -4.22255277633667,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -3.3175888061523438,
+                            "m_y": 8.784586906433105,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.5808472633361816,
+                            "m_y": 8.559405326843262,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -10.136374473571777,
+                            "m_y": -3.3349435329437256,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -9.882061958312988,
+                            "m_y": -3.3476016521453857,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.25341761112213135,
+                            "m_y": 4.977689743041992,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.25025713443756104,
+                            "m_y": 5.064358711242676,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.9275544881820679,
+                            "m_y": 2.4411232471466064,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.8877692222595215,
+                            "m_y": 2.365849494934082,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.724269151687622,
+                            "m_y": 2.199155807495117,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.5424762964248657,
+                            "m_y": 2.128791570663452,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.8459839820861816,
+                            "m_y": -3.870375394821167,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.6492332816123962,
+                            "m_y": -3.889655828475952,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.5413419008255005,
+                            "m_y": -3.889125108718872,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 0.9477242231369019,
+                            "m_y": 2.086425304412842,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.6756626963615417,
+                            "m_y": 2.142611265182495,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.5656903982162476,
+                            "m_y": 2.193045139312744,
+                            "m_obstacleType": 7,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -8.740897178649902,
+                            "m_y": 8.385367393493652,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -9.068175315856934,
+                            "m_y": 8.20557975769043,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -9.796409606933594,
+                            "m_y": 8.338001251220703,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.6718997955322266,
+                            "m_y": -4.03810977935791,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.7539145946502686,
+                            "m_y": -4.038620948791504,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.3200424909591675,
+                            "m_y": -2.48521089553833,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.2431832551956177,
+                            "m_y": -2.555446147918701,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.3283730745315552,
+                            "m_y": -2.6109259128570557,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 1.4538387060165405,
+                            "m_y": -2.614382028579712,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.0625478029251099,
+                            "m_y": 8.528030395507812,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.0918943881988525,
+                            "m_y": 8.66072940826416,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.016109943389893,
+                            "m_y": 3.3812644481658936,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.0724358558654785,
+                            "m_y": 3.663499116897583,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.0853047370910645,
+                            "m_y": 3.7580602169036865,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.107071399688721,
+                            "m_y": 3.8628063201904297,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -6.968583106994629,
+                            "m_y": -3.53829026222229,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -6.651179790496826,
+                            "m_y": -3.6345744132995605,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -5.739091873168945,
+                            "m_y": -3.675144672393799,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.6602487564086914,
+                            "m_y": -3.8638856410980225,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.4570587873458862,
+                            "m_y": -3.8684940338134766,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.3568944931030273,
+                            "m_y": -3.8697094917297363,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.1538212299346924,
+                            "m_y": -3.8710765838623047,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 6.034090995788574,
+                            "m_y": -4.221113681793213,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 6.059561729431152,
+                            "m_y": -4.22841215133667,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 6.330594062805176,
+                            "m_y": -4.195228576660156,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 6.439804553985596,
+                            "m_y": -4.173614025115967,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 1.2318956851959229,
+                            "m_y": 7.855188369750977,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.8717606067657471,
+                            "m_y": 7.613562107086182,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.14684557914733887,
+                            "m_y": 8.512913703918457,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.3059966564178467,
+                            "m_y": 8.649386405944824,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.4955650568008423,
+                            "m_y": 8.533987045288086,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -0.0941781997680664,
+                            "m_y": -3.2951767444610596,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -0.04888744279742241,
+                            "m_y": -3.280571222305298,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.16140572726726532,
+                            "m_y": -3.3096375465393066,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 0.35210275650024414,
+                            "m_y": -3.325015068054199,
+                            "m_obstacleType": 1,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -3.6474356651306152,
+                            "m_y": -3.7697324752807617,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.4677462577819824,
+                            "m_y": -3.778463840484619,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -11.145478248596191,
+                            "m_y": -3.4175777435302734,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -11.458477973937988,
+                            "m_y": -3.920565128326416,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -1.0526421070098877,
+                            "m_y": 8.000068664550781,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.2267165184020996,
+                            "m_y": 8.229483604431152,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.3321624994277954,
+                            "m_y": 8.021449089050293,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -1.8601800203323364,
+                            "m_y": 8.154752731323242,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -9.802239418029785,
+                            "m_y": -3.0888760089874268,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -9.028021812438965,
+                            "m_y": -3.2559545040130615,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -8.87630558013916,
+                            "m_y": -3.8454792499542236,
+                            "m_obstacleType": 2,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 5.2581562995910645,
+                            "m_y": 5.170206069946289,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 5.3177490234375,
+                            "m_y": 5.5820231437683105,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -3.5856311321258545,
+                            "m_y": -2.5113167762756348,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -3.458878755569458,
+                            "m_y": -2.5757670402526855,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": 4.916163921356201,
+                            "m_y": 1.787952184677124,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": 4.917886734008789,
+                            "m_y": 1.8745330572128296,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                },
+                {
+                    "nfmPolygonObjectNodes": [
+                        {
+                            "m_x": -2.531658887863159,
+                            "m_y": 8.503654479980469,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        },
+                        {
+                            "m_x": -2.625189781188965,
+                            "m_y": 8.861788749694824,
+                            "m_obstacleType": 8,
+                            "m_height": "nfm::fs::interface::EFusionHeightClass::HIGH"
+                        }
+                    ]
+                }
+            ],
+            "m_psdFrameOrigin": [
+                13.200000196695328,
+                0.0
+            ],
+            "m_parkingSpaces": [
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                -6.325002670288086,
+                                2.3988230228424072,
+                                -3.9103705883026123,
+                                2.2880892753601074,
+                                -3.6338462829589844,
+                                7.506152153015137,
+                                -6.048478126525879,
+                                7.616885185241699
+                            ],
+                            "m_id": 1115,
+                            "m_detectionType": 1,
+                            "m_psState": 0
+                        }
+                    ]
+                },
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                -2.7983875274658203,
+                                2.187398672103882,
+                                -0.41753795742988586,
+                                2.0858027935028076,
+                                -0.050571709871292114,
+                                7.0995073318481445,
+                                -2.431422472000122,
+                                7.201105117797852
+                            ],
+                            "m_id": 1116,
+                            "m_detectionType": 1,
+                            "m_psState": 0
+                        }
+                    ]
+                },
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                -0.285225510597229,
+                                2.035874128341675,
+                                2.0396928787231445,
+                                1.9353986978530884,
+                                2.5069477558135986,
+                                6.915205478668213,
+                                0.1820288598537445,
+                                7.015681266784668
+                            ],
+                            "m_id": 1118,
+                            "m_detectionType": 1,
+                            "m_psState": 1
+                        }
+                    ]
+                },
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                1.8021999597549438,
+                                -0.727541446685791,
+                                -3.646638870239258,
+                                -0.3898279666900635,
+                                -3.5829362869262695,
+                                -2.4951090812683105,
+                                1.8659026622772217,
+                                -2.832827091217041
+                            ],
+                            "m_id": 1119,
+                            "m_detectionType": 1,
+                            "m_psState": 1
+                        }
+                    ]
+                },
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                2.061345100402832,
+                                1.927531123161316,
+                                4.532841682434082,
+                                1.858162522315979,
+                                4.675245761871338,
+                                6.923434734344482,
+                                2.203749418258667,
+                                6.992804050445557
+                            ],
+                            "m_id": 1120,
+                            "m_detectionType": 1,
+                            "m_psState": 0
+                        }
+                    ]
+                },
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                -3.561476945877075,
+                                -0.20920953154563904,
+                                -9.22207260131836,
+                                0.12413269281387329,
+                                -9.38127613067627,
+                                -2.250588893890381,
+                                -3.7206404209136963,
+                                -2.5839524269104004
+                            ],
+                            "m_id": 1273,
+                            "m_detectionType": 1,
+                            "m_psState": 0
+                        }
+                    ]
+                },
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                -8.978838920593262,
+                                2.5166454315185547,
+                                -6.430710792541504,
+                                2.4016051292419434,
+                                -6.066988945007324,
+                                7.473939895629883,
+                                -8.615116119384766,
+                                7.589040756225586
+                            ],
+                            "m_id": 1274,
+                            "m_detectionType": 1,
+                            "m_psState": 0
+                        }
+                    ]
+                },
+                {
+                    "parkingSpace": [
+                        {
+                            "m_area": [
+                                -10.991939544677734,
+                                2.65415358543396,
+                                -8.618745803833008,
+                                2.5326573848724365,
+                                -7.952934741973877,
+                                7.496145248413086,
+                                -10.32618236541748,
+                                7.617593765258789
+                            ],
+                            "m_id": 1275,
+                            "m_detectionType": 1,
+                            "m_psState": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

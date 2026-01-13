@@ -1,4 +1,4 @@
-# Constrained Parking Scenarios (Rear-In)
+# Constrained Parking Scenarios (ParkBench)
 
 This repository contains **51 constrained rear-in parking scenarios** (**ParkBench**) for research and benchmarking in autonomous parking and motion planning.
 
@@ -82,6 +82,7 @@ All returned data are expressed in the **same world coordinate system**.
 - Obstacle boundaries are **interpolated** at a configurable spatial resolution (`interp_dist`)
 - Obstacle points **overlapping the target vehicle bounding box are filtered out**
 - Heading angles are **normalized into the range** `[-π, π]`
+- There may be some outliers among the obstacle points, i.e., a small number of points may lie far outside the main scene.
 
 
 

@@ -1,6 +1,6 @@
 # Constrained Parking Scenarios (Rear-In)
 
-This repository contains **51 constrained rear-in parking scenarios** for research and benchmarking in autonomous parking and motion planning.
+This repository contains **51 constrained rear-in parking scenarios** (**ParkBench**) for research and benchmarking in autonomous parking and motion planning.
 
 Each scenario is provided as a JSON file and describes a tightly constrained parking environment, including the ego vehicle start pose, target parking pose, and surrounding static obstacles.
 
@@ -21,8 +21,29 @@ Each scenario includes:
 - Obstacle boundaries represented as polygonal polylines
 - Frame origin and planning metadata
 
----
 
+
+### Scenario Visualization
+Below are three representative parking scenarios. Static obstacles are shown in red, the start pose in magenta, and the target pose in cyan.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/17204167745457341331.json.png" width="300"><br>
+      <b>(1) Dead End</b>
+    </td>
+    <td align="center">
+      <img src="figures/17212690087340045681.json.png" width="300"><br>
+      <b>(2) Corridor</b>
+    </td>
+    <td align="center">
+      <img src="figures/17356929970220950321.json.png" width="300"><br>
+      <b>(3) Corner</b>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## Feature Extraction Utility
 

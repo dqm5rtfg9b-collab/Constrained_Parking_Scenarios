@@ -106,6 +106,14 @@ All returned data are expressed in the **same world coordinate system**.
 If you use this dataset in academic work, please cite:
 
 ```bibtex
-To do 
+@misc{tao2026adaptingreinforcementlearningpath,
+      title={Adapting Reinforcement Learning for Path Planning in Constrained Parking Scenarios}, 
+      author={Feng Tao and Luca Paparusso and Chenyi Gu and Robin Koehler and Chenxu Wu and Xinyu Huang and Christian Juette and David Paz and Ren Liu},
+      year={2026},
+      eprint={2601.22545},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2601.22545}, 
+}
  
 
